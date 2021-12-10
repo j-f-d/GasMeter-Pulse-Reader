@@ -1,4 +1,10 @@
-# Gasmeter_with_reed
+# GasMeter Pulse Reader
+
+This schematic and PCB will allow you once built to read, tally and report on a standard Gas Meters Pulse Reader. Each trigger event consists of 10L of Gas consumed. This device has been confirmed compatible with the following meters:
+
+* Gameco Model 750 Gas Meter (10L/impulse)
+
+This project was forked from MakerMeik's Gasmeter_with_reed project and has been updated to be completely self-contained, self-powered (or direct powered) and has hardware debounce using a Schmitt trigger.
 
 ![screenshot](https://github.com/MakerMeik/Gasmeter_with_reed/blob/main/Title.jpg)
 
@@ -9,3 +15,4 @@ https://youtu.be/i9hPf0uNzFE
 ## Links
 Thingiverse - 3D-Model of the case:  
 https://www.thingiverse.com/thing:5152526
+
