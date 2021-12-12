@@ -6,10 +6,12 @@ This schematic and PCB will allow you once built to read, tally and report on a 
 
 This project was forked from MakerMeik's Gasmeter_with_reed project and has been updated to be completely self-contained, self-powered (or direct powered) and has hardware debounce using a Schmitt trigger.
 
-![screenshot](https://github.com/MakerMeik/Gasmeter_with_reed/blob/main/Title.jpg)
+![screenshot](https://github.com/optoisolated/GasMeter-Pulse-Reader/raw/main/Schematic.png)
+![screenshot](https://github.com/optoisolated/GasMeter-Pulse-Reader/raw/main/PCB.png)
 
 Here you will find all the files you need to build ESP-01 microcontroller and a reed switch to read your Krom-Schröder gas meter electronically.  
 
+![screenshot](https://github.com/Optoisolated/GasMeter-Pulse-Reader/blob/main/Title.jpg)
 
 ## Links
 * MakerMeik's original Project video: https://youtu.be/i9hPf0uNzFE
