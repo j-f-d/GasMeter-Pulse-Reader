@@ -1,6 +1,6 @@
 # GasMeter Pulse Reader
 
-This schematic and PCB will allow you once built to read, tally and report on a standard Gas Meters Pulse Reader. Each trigger event consists of 10L of Gas consumed. This device has been confirmed compatible with the following meters:
+This schematic and PCB layout will allow you to build, read, tally and report on a standard Pulse-Type Gas and Water Meters. Each trigger event consists of 10L of Gas consumed. This device has been confirmed compatible with the following meters:
 
 * Gameco Model 750 Gas Meter (10L/impulse)
 
