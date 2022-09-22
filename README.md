@@ -15,4 +15,4 @@ Here you will find all the files you need to build ESP-01 microcontroller and a 
 
 ## Links
 * MakerMeik's original Project video: https://youtu.be/i9hPf0uNzFE
-* Thingiverse - 3D-Model of the case:  https://www.thingiverse.com/thing:5152526
+* Thingiverse - 3D-Model of the case: https://www.thingiverse.com/thing:5338232
