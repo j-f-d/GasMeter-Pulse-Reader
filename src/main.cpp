@@ -34,11 +34,12 @@ char macAddressStr[3 + (2*WL_MAC_ADDR_LENGTH)];
 // This default locally administered MAC address is just used to reserve space in the strings
 #define DEFAULT_MAC "0xEE0102010203"
 
-
 #ifndef USE_DHCP
 IPAddress mqtt_server = gateway; // Or wherever.
 #else
-const char* mqtt_server = "mosquitto.home";
+// Set up a DNS alias on your lan for the machine which runs the mosquitto server.
+//IPAddress mqtt_server(192,168,188,181); // Or wherever.
+const char* mqtt_server = "mosquitto.lan";
 #endif
 const char* mqtt_user = SECRET_MQTT_USER;
 const char* mqtt_pass = SECRET_MQTT_PASS;
@@ -234,6 +235,10 @@ static void mqtt_reconnect(void) {
         mqtt_publish_state(0.0, 0.0);
         firstConnect = false;
       }
+    } else {
+#ifdef SERIAL_LOGGING
+      Serial.printf("Connect failed state: %d\n", mqtt_client.state());
+#endif
     }
   }
 }
